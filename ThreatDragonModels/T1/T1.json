@@ -25,16 +25,24 @@
               "angle": 0,
               "id": "2a0b65ef-9f22-48a7-8b5d-35f6b3412273",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Weak Authentication"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "process 0"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -97,6 +105,22 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 199,
+                "y": 397
+              },
+              "target": {
+                "x": 454,
+                "y": 36
+              },
+              "vertices": [],
+              "id": "da19fa02-8e70-4c56-91f5-edefb65787f9",
+              "z": 4,
+              "attrs": {}
             }
           ]
         },
